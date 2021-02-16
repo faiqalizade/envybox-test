@@ -1,0 +1,19 @@
+html,
+body,
+#app{
+    height: 100%;
+}
+#app>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    form{
+        width: 50%;
+    }
+    .md-layout-item.md-size-50{
+        width: 100%;
+        max-width: 100%;
+        flex: unset;
+    }
+}
